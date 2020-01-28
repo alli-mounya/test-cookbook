@@ -4,6 +4,6 @@
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
 execute "update-upgrade" do
-command : "sudo apt-get install"
+command  "sudo apt-get install"
 action : run
 end
